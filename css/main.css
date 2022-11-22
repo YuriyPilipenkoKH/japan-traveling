@@ -35,6 +35,20 @@ img {
   outline: 1px solid crimson;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .header {
   position: absolute;
   left: 50%;
@@ -83,6 +97,7 @@ img {
   font-size: 16px;
   line-height: 24px;
   color: var(--main-bgc);
+  margin-bottom: 60px;
 }
 
 .hero {
@@ -93,10 +108,52 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #979797;
-  background-image: url(../../img/main-image.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 66, 103, 0.5019607843)), to(rgba(21, 24, 36, 0.3333333333))), url("../../img/main-image.jpg");
+  background-image: linear-gradient(to bottom, rgba(53, 66, 103, 0.5019607843), rgba(21, 24, 36, 0.3333333333)), url("../../img/main-image.jpg");
 }
 
 .hero-container {
   padding-top: 263px;
   padding-bottom: 372px;
+}
+
+.hero__wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}
+
+.hero-check {
+  width: 297px;
+  padding: 0 20px 22px 43px;
+}
+
+.hero-check__input {
+  position: relative;
+}
+
+.hero-check__box {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.hero-check__box--second {
+  left: 360px;
+}
+
+.hero-check__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.hero-check__input:checked ~ .hero-check__box {
+  background-color: #1B7DFF;
 }/*# sourceMappingURL=main.css.map */
