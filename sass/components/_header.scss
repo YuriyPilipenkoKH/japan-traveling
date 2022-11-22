@@ -1,0 +1,23 @@
+.header {
+    position: absolute;
+   left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 90px 0;
+    align-items: center;
+
+    background-color: transparent;
+}
+.menu__list {
+    display: flex;
+    gap: 82px;
+}
+.menu__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--main-bgc);    
+}

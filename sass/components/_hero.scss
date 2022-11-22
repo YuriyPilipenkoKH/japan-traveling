@@ -1,0 +1,32 @@
+.hero__title {
+    width: 619px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    
+    color: var(--main-bgc);
+    margin-bottom: 22px;    
+}
+.hero__description {
+    width: 546px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--main-bgc);    
+}
+.hero {
+    max-width: 1482px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-color: #979797;
+    background-image: url(../../img/main-image.jpg);
+}
+.hero-container {
+    padding-top: 263px;
+    padding-bottom: 372px;
+}
