@@ -40,6 +40,7 @@
 .hero-check {
     width: 297px;
     padding: 0 20px 22px 43px;
+    border-bottom: 2px solid #BFC0C5;
 }
 .hero-check__input {
     position: relative;
@@ -69,6 +70,12 @@
             background-color: #1B7DFF;
         }
     }
+}
+.hero__button {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;  
+    padding: 15px 39px;  
 }
 
 
