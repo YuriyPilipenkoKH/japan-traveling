@@ -25,12 +25,13 @@
 
     background-repeat: no-repeat;
     background-color: #979797;
-    background-image: linear-gradient(to bottom, #35426780, #15182455),
+    background-image: linear-gradient(to bottom, #35426780, #151824a5),
         url("../../img/main-image.jpg");
 }
 .hero-container {
     padding-top: 263px;
     padding-bottom: 372px;
+    padding-left: 90px;
 }
 .hero__wrapper {
     position: relative;
