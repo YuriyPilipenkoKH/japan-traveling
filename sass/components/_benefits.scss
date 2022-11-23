@@ -53,4 +53,7 @@
 }
 .benefits__link:hover, .benefits__link:focus {
     background: url(../../img/arrow.svg) no-repeat right center;
+    font-weight: 700;
+    // transform: scale(1.1);
+    transition: 0.4s all;
 }

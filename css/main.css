@@ -30,6 +30,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
 }
 
 .list {
@@ -259,6 +264,13 @@ img {
 
 .benefits__link:hover, .benefits__link:focus {
   background: url(../../img/arrow.svg) no-repeat right center;
+  font-weight: 700;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.places {
+  margin-bottom: 131px;
 }
 
 .places__container {
@@ -296,6 +308,12 @@ img {
   color: #006DFE;
 }
 
+.places__link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  font-weight: 700;
+}
+
 .places__svg {
   width: 33px;
 }
@@ -312,4 +330,107 @@ img {
           justify-content: space-between;
   padding-bottom: 7px;
   margin-bottom: 36px;
+}
+
+.places__cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.places__card {
+  position: relative;
+}
+
+.places__card::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 24, 36, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.places__card-title {
+  position: absolute;
+  bottom: 27px;
+  left: 29px;
+  z-index: 3;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.places__card--size-lg {
+  grid-column: span 3;
+}
+
+.places__card--size-sm {
+  grid-column: span 2;
+}
+
+.places__card-img {
+  width: 100%;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.places__card-img--size-lg {
+  height: 354px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.places__card-img--size-sm {
+  height: 283px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.places__card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.tours {
+  margin-bottom: 139px;
+}
+
+.tours__container {
+  overflow: hidden;
+}
+
+.tours__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 77px 108px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tour__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 86px;
+}
+
+.tour__text {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+
+.tour__img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: 0.8s all;
+  transition: 0.8s all;
 }/*# sourceMappingURL=main.css.map */

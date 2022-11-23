@@ -1,0 +1,27 @@
+.tours {
+    margin-bottom: 139px;
+}
+.tours__container {
+    overflow: hidden;
+}
+.tours__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 77px 108px;
+    align-items: center;
+}
+.tour__title {
+    font-weight: 500;
+    font-size: 30px;    
+    line-height: 40px;
+     margin-bottom: 86px;
+}
+.tour__text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+.tour__img:hover {
+    transform: scale(1.25);
+    transition: 0.8s all;
+}
