@@ -40,14 +40,17 @@
     margin-bottom: 39px;
 }
 .benefits__link {
-    display: flex;
-    gap: 26px;
+   display: inline-block;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #006DFE;    
     text-transform: uppercase;
     text-decoration: none;
-    
-
+    padding-right: 60px;
+    background: url(../../img/arrow.svg) no-repeat 95% center;
+    transition: .3s all;
+}
+.benefits__link:hover, .benefits__link:focus {
+    background: url(../../img/arrow.svg) no-repeat right center;
 }

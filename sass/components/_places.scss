@@ -2,6 +2,7 @@
     overflow: hidden;
 }
 .places__title {
+    position: relative;
     font-weight: 600;
     font-size: 35px;
     line-height: 42px;
@@ -9,9 +10,13 @@
     
 }
 .places__title::after {
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    display: block;
     content: '';
-    width: 50%;
-    height: 2px;
+    width: 250px;
+    height: 3px;
     border-radius: 1px;
     background-color: #006DFE;
 
@@ -19,6 +24,7 @@
 .places__link {
     display: flex;
     gap: 25px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;  
@@ -29,19 +35,9 @@
     width: 33px;
 }
 .places__wrapper {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     margin-bottom: 46px;  
-
-}
-.places__wrapper-second {
     display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-
-}
-.places__wrapper-third {
-    display: flex;
-    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 7px;
+    margin-bottom: 36px;
 }
