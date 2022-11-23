@@ -1,0 +1,47 @@
+.places__container {
+    overflow: hidden;
+}
+.places__title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    color: #102746;  
+    
+}
+.places__title::after {
+    content: '';
+    width: 50%;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #006DFE;
+
+}
+.places__link {
+    display: flex;
+    gap: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #006DFE;    
+
+}
+.places__svg {
+    width: 33px;
+}
+.places__wrapper {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 46px;  
+
+}
+.places__wrapper-second {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+.places__wrapper-third {
+    display: flex;
+    gap: 10px;
+}
