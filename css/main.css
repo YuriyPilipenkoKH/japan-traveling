@@ -143,8 +143,8 @@ figure {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #979797;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 66, 103, 0.5019607843)), to(rgba(21, 24, 36, 0.6470588235))), url("img/main-image.jpg");
-  background-image: linear-gradient(to bottom, rgba(53, 66, 103, 0.5019607843), rgba(21, 24, 36, 0.6470588235)), url("img/main-image.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(53, 66, 103, 0.5019607843)), to(rgba(21, 24, 36, 0.6470588235))), url("./img/main-image.jpg");
+  background-image: linear-gradient(to bottom, rgba(53, 66, 103, 0.5019607843), rgba(21, 24, 36, 0.6470588235)), url("./img/main-image.jpg");
 }
 
 .hero-container {
