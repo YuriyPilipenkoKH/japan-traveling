@@ -48,11 +48,11 @@
     text-transform: uppercase;
     text-decoration: none;
     padding-right: 60px;
-    background: url(./img/arrow.svg) no-repeat 95% center;
+    background: url(../img/arrow.svg) no-repeat 95% center;
     transition: .3s all;
 }
 .benefits__link:hover, .benefits__link:focus {
-    background: url(./img/arrow.svg) no-repeat right center;
+    background: url(../img/arrow.svg) no-repeat right center;
     font-weight: 700;
     // transform: scale(1.1);
     transition: 0.4s all;
