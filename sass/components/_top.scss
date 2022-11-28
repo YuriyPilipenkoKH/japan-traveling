@@ -5,21 +5,28 @@
     margin-bottom: 54px;
 }
 .top__cards {
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:  57px;
 }
-.top__card {
+.top__card  {
+    outline: 1px solid blueviolet;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
 } 
 .top__card-info {
+    outline: 1px solid crimson;
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
     gap: 14px;
     position: absolute;
-    bottom: 0;
+    bottom: 38%;
     left: 0;
     width: 100%;
     background-color: #15182499;
@@ -51,4 +58,14 @@
     background: url(../img/comment-icon.svg) no-repeat right center;
 
 
+}
+
+.top__card-description {
+    line-height: 24px;
+    color: #102746;
+    margin-bottom: 35px;
+}
+.top__button-see {
+    line-height: 19px;
+    color: #FFFFFF;
 }

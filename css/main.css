@@ -454,15 +454,23 @@ figure {
 }
 
 .top__card {
+  outline: 1px solid blueviolet;
   position: relative;
-}
-
-.top__card-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+
+.top__card-info {
+  outline: 1px solid crimson;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -471,7 +479,7 @@ figure {
           justify-content: flex-end;
   gap: 14px;
   position: absolute;
-  bottom: 0;
+  bottom: 38%;
   left: 0;
   width: 100%;
   background-color: rgba(21, 24, 36, 0.6);
@@ -502,4 +510,15 @@ figure {
   color: #fff;
   padding-right: 23px;
   background: url(../img/comment-icon.svg) no-repeat right center;
+}
+
+.top__card-description {
+  line-height: 24px;
+  color: #102746;
+  margin-bottom: 35px;
+}
+
+.top__button-see {
+  line-height: 19px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
