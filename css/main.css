@@ -1,3 +1,4 @@
+@import '//components/cities';
 :root {
   --main-color: #102746;
   --main-bgc: #fff;
@@ -454,7 +455,6 @@ figure {
 }
 
 .top__card {
-  outline: 1px solid blueviolet;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -467,7 +467,88 @@ figure {
 }
 
 .top__card-info {
-  outline: 1px solid crimson;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 14px;
+  position: absolute;
+  bottom: 38%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(21, 24, 36, 0.6);
+  padding: 16px 25px;
+}
+
+.top__card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: auto;
+}
+
+.top__card-likes {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding-right: 20px;
+  background: url(../img/heart-icon.svg) no-repeat right center;
+}
+
+.top__card-comments {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding-right: 23px;
+  background: url(../img/comment-icon.svg) no-repeat right center;
+}
+
+.top__card-description {
+  line-height: 24px;
+  color: #102746;
+  margin-bottom: 35px;
+}
+
+.top__button-see {
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.top {
+  margin-bottom: 86px;
+}
+
+.top__title {
+  margin-bottom: 54px;
+}
+
+.top__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 57px;
+}
+
+.top__card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+
+.top__card-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
