@@ -6,6 +6,9 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px 60px;
 }
+.cities__title {
+    margin-bottom: 50px;
+}
 .cities__card {
     position: relative;
     display: grid;
