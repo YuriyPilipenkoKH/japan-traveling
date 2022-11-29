@@ -3,12 +3,19 @@
 }
 
 .video__item {
+    position: relative;
+    margin-bottom: 90px;
     width: 100%;
-   
     padding-top: 56.25%;
+
+    background-color: #00808066;
 }
 iframe {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     
-
+    height: 100%;
      width: 100%;
 }
