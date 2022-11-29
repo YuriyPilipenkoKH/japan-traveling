@@ -1,4 +1,3 @@
-@import '//components/cities';
 :root {
   --main-color: #102746;
   --main-bgc: #fff;
@@ -400,7 +399,7 @@ figure {
 }
 
 .tours {
-  margin-bottom: 139px;
+  margin-bottom: 90px;
 }
 
 .tours__container {
@@ -440,52 +439,40 @@ figure {
   transition: 0.8s all;
 }
 
-.top {
+.cities {
   margin-bottom: 86px;
 }
 
-.top__title {
-  margin-bottom: 54px;
-}
-
-.top__cards {
+.cities__wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 57px;
+  grid-gap: 40px 60px;
 }
 
-.top__card {
+.cities__card {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 32px;
 }
 
-.top__card-info {
+.cities__card-info {
+  position: absolute;
+  left: 0;
+  top: 57.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   gap: 14px;
-  position: absolute;
-  bottom: 38%;
-  left: 0;
-  width: 100%;
   background-color: rgba(21, 24, 36, 0.6);
   padding: 16px 25px;
+  width: 100%;
 }
 
-.top__card-title {
+.cities__card-title {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
@@ -493,7 +480,7 @@ figure {
   margin-right: auto;
 }
 
-.top__card-likes {
+.cities__card-likes {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -502,7 +489,7 @@ figure {
   background: url(../img/heart-icon.svg) no-repeat right center;
 }
 
-.top__card-comments {
+.cities__card-comments {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -511,95 +498,25 @@ figure {
   background: url(../img/comment-icon.svg) no-repeat right center;
 }
 
-.top__card-description {
+.cities__card-description {
   line-height: 24px;
   color: #102746;
-  margin-bottom: 35px;
 }
 
-.top__button-see {
+.cities__button-see {
   line-height: 19px;
   color: #FFFFFF;
 }
 
-.top {
-  margin-bottom: 86px;
-}
-
-.top__title {
-  margin-bottom: 54px;
-}
-
-.top__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 57px;
-}
-
-.top__card {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 40px;
-}
-
-.top__card-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  gap: 14px;
-  position: absolute;
-  bottom: 38%;
-  left: 0;
+.video {
   width: 100%;
-  background-color: rgba(21, 24, 36, 0.6);
-  padding: 16px 25px;
 }
 
-.top__card-title {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  color: #fff;
-  margin-right: auto;
+.video__item {
+  width: 100%;
+  padding-top: 56.25%;
 }
 
-.top__card-likes {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  padding-right: 20px;
-  background: url(../img/heart-icon.svg) no-repeat right center;
-}
-
-.top__card-comments {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  padding-right: 23px;
-  background: url(../img/comment-icon.svg) no-repeat right center;
-}
-
-.top__card-description {
-  line-height: 24px;
-  color: #102746;
-  margin-bottom: 35px;
-}
-
-.top__button-see {
-  line-height: 19px;
-  color: #FFFFFF;
+iframe {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

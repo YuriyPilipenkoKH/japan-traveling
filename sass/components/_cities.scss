@@ -1,3 +1,64 @@
 .cities {
     margin-bottom: 86px;
 }
+.cities__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px 60px;
+}
+.cities__card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    grid-gap: 32px 
+}
+.cities__card-info {
+    position: absolute;
+    left: 0;
+    top: 57.5%;
+
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background-color: #15182499;
+    padding: 16px 25px;
+    width: 100%;
+
+}
+.cities__card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: auto;
+}
+.cities__card-likes {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff; 
+    padding-right: 20px;
+    background: url(../img/heart-icon.svg) no-repeat right center;
+
+}
+.cities__card-comments {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff; 
+    padding-right: 23px;
+    background: url(../img/comment-icon.svg) no-repeat right center;
+
+
+}
+
+.cities__card-description {
+    line-height: 24px;
+    color: #102746;
+    
+}
+.cities__button-see {
+    line-height: 19px;
+    color: #FFFFFF;
+}
