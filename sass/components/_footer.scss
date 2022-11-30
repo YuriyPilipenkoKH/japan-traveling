@@ -4,9 +4,9 @@
 }
 
 .footer__logo {
-    font-size: 40px;
-    color: #FFFF0099;
-    text-transform: uppercase
+  fill: #FFFF0099;
+  position: absolute;
+  top: -45px;
 
 }
 .footer__wrapper {
@@ -36,6 +36,7 @@
     cursor: auto;
 }
 .footer__container {
+    position: relative;
     padding: 0 180px;
     width: 1262px;
     display: grid;

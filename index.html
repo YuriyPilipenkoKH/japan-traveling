@@ -15,8 +15,10 @@
     <header class="header container">
         <div class="logo">
             <a href="#!">
-                <img class="header__logo" src="./img/odigo-Logo.svg" width="82" alt="logo"></a>
-
+                <!-- <img class="header__logo" src="./img/odigo-Logo.svg" width="82" alt="logo"></a> -->
+             <svg class="header__logo" width="82">
+               <use  href="./img/logo-sprite.svg#odigo-Logo"></use>
+             </svg>       
         </div>
         <nav class="menu">
             <ul class="menu__list list">
@@ -334,7 +336,12 @@
     <footer class="footer">
         <div class="footer__container container">
             
-                <h2 class="footer__logo">Odigio</h2>
+               
+                <a href="">
+                    <svg class="footer__logo" width="180" hight="68">
+                        <use  href="./img/logo-sprite.svg#odigo-Logo"></use>
+                      </svg>   
+                </a>
             
            
             <div class="footer__wrapper">

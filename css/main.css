@@ -116,6 +116,10 @@ figure {
   color: var(--main-bgc);
 }
 
+.header__logo-svg {
+  fill: rgba(255, 255, 0, 0.6);
+}
+
 .hero__title {
   width: 619px;
   font-weight: 700;
@@ -548,9 +552,9 @@ iframe {
 }
 
 .footer__logo {
-  font-size: 40px;
-  color: rgba(255, 255, 0, 0.6);
-  text-transform: uppercase;
+  fill: rgba(255, 255, 0, 0.6);
+  position: absolute;
+  top: -45px;
 }
 
 .footer__wrapper {
@@ -583,6 +587,7 @@ iframe {
 }
 
 .footer__container {
+  position: relative;
   padding: 0 180px;
   width: 1262px;
   display: grid;
