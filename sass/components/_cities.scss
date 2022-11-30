@@ -1,6 +1,9 @@
 .cities {
     margin-bottom: 86px;
 }
+.cities__container {
+    overflow: hidden;
+}
 .cities__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -16,6 +19,12 @@
     
     grid-gap: 32px 
 }
+.cities__card-wrapper > img:hover {
+     transform: scale(1.2);
+    transition: 0.8s all;
+}
+
+
 .cities__card-info {
     position: absolute;
     left: 0;

@@ -1,0 +1,43 @@
+.footer {
+    padding: 120px 0;
+    background-color: #0E1D28;
+}
+
+.footer__logo {
+    font-size: 40px;
+    color: #FFFF0099;
+    text-transform: uppercase
+
+}
+.footer__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.footer__nav,
+.footer__cities,
+.footer__social {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+.footer__nav-link,
+.footer__cities-link,
+.footer__social-link  {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;    
+}
+.footer__nav-title,
+.footer__cities-title,
+.footer__social-title {
+    font-size: 22px;
+    line-height: 34px;
+    cursor: auto;
+}
+.footer__container {
+    padding: 0 180px;
+    width: 1262px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
